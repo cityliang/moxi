@@ -30,9 +30,9 @@ public class AdminController {
     /**
      * 登录
      *
-     * @param admin
-     * @param model
-     * @param httpSession
+     * @param admin admin
+     * @param model model
+     * @param httpSession httpSession
      * @return
      */
     @PostMapping("/admin/login")
@@ -50,7 +50,7 @@ public class AdminController {
     /**
      * 注册
      *
-     * @param model
+     * @param model model
      * @return
      */
     @GetMapping("/admin/register")
@@ -61,7 +61,7 @@ public class AdminController {
     /**
      * 仪表板页面
      *
-     * @param model
+     * @param model model
      * @return
      */
     @GetMapping("/admin/dashboard")
